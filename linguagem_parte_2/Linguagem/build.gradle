@@ -2,6 +2,8 @@ plugins {
 	id 'org.springframework.boot' version '2.2.7.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'java'
+	id 'checkstyle'
+	id 'pmd'
 }
 
 group = 'linguagem.Allysonubius'
@@ -22,3 +24,4 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
