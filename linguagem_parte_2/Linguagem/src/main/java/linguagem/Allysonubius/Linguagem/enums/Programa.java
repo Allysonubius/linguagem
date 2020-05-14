@@ -8,7 +8,7 @@ public class Programa {
         System.out.println (TipoVeiculo.TERRESTRE);
         System.out.println (TipoVeiculo.AQUATICO);
 
-        //System.out.println(TipoVeiculo.valueOf("areo"));
+        //System.out.println(TipoVeiculo.valueOf("aereo"));
         System.out.println (TipoVeiculo.valueOf ("AEREO"));
 
         for (TipoVeiculo tipo : TipoVeiculo.values ()){
