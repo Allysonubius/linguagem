@@ -1,4 +1,6 @@
 package linguagem.Allysonubius.Linguagem.finals;
 
-public class hardcore {
+public final class hardcore {
+
+    
 }

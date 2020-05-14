@@ -1,4 +1,10 @@
-package cliente;
+package linguagem.Allysonubius.Linguagem.cliente;
 
-public class cliente extends pessoa{
+import linguagem.Allysonubius.Linguagem.classes.usuario.pessoa.pessoafisica;
+
+public class cliente extends pessoafisica{
+
+    public cliente(final Integer idade){
+        super (idade);
+    }
 }
