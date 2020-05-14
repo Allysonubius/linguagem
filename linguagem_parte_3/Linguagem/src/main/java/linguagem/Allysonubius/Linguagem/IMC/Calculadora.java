@@ -18,7 +18,7 @@ public class Calculadora {
 
         final var altura = pessoa.getAltura ();
         final var peso = pessoa.getPeso ();
-        final var imc = peso / altura * altura;
+        final var imc = peso / (altura * altura);
 
         return imc;
     }
